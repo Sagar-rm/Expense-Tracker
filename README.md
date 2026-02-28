@@ -2,7 +2,7 @@
 
 A full-stack AI-powered expense tracker with ML predictions, smart auto-categorization, budget risk alerts, and beautiful dark-mode analytics dashboard.
 
-## 🏗️ Architecture
+## 🏗️ Architecturee
 
 ```
 expense_tracker/
