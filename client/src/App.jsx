@@ -9,6 +9,7 @@ import Expenses from './pages/Expenses';
 import AddExpense from './pages/AddExpense';
 import Analytics from './pages/Analytics';
 import Profile from './pages/Profile';
+import Landing from './pages/Landing';
 
 // Protected route wrapper
 const ProtectedRoute = ({ children }) => {
@@ -40,7 +41,7 @@ const PublicRoute = ({ children }) => {
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/dashboard" replace />} />
+      <Route path="/" element={<Landing />} />
       <Route path="/login" element={<PublicRoute><Login /></PublicRoute>} />
       <Route path="/register" element={<PublicRoute><Register /></PublicRoute>} />
       <Route element={<ProtectedRoute><Layout /></ProtectedRoute>}>
